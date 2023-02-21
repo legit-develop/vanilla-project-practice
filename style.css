@@ -9,3 +9,13 @@ body {
   font-family: cursive;
   font-size: 20px;
 }
+
+.mouse-event {
+  border: solid 1px lightgray;
+  margin: 40px;
+  min-width: 180px;
+  position: relative;
+  min-height: 100px;
+  text-align: center;
+  padding: 10px 30px;
+}
