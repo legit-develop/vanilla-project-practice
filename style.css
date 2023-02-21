@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: row;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -10,12 +11,33 @@ body {
   font-size: 20px;
 }
 
+.container {
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+}
+
 .mouse-event {
   border: solid 1px lightgray;
   margin: 40px;
   min-width: 180px;
   position: relative;
   min-height: 100px;
-  text-align: center;
   padding: 10px 30px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.mouse-event h4 {
+  color: blue;
+  position: absolute;
+  font-size: 20px;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
