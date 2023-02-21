@@ -22,4 +22,20 @@ body {
   margin: 20px 30px;
   border: 1px solid black;
   padding: 10px 20px;
+  position: relative;
+  min-width: 180px;
+  min-height: 100px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.mouse-event h4 {
+  color: red;
+  position: absolute;
+  font-size: 16px;
+  top: 50px;
 }
