@@ -1,15 +1,15 @@
 const counterEl = document.querySelector(".counter");
 const barEl = document.querySelector(".loading-bar-front");
 
-let idx = 0;
-
-updateNum();
+let barPercentage = 0;
 
 function updateNum() {
-  counterEl.innerText = `${idx}%`;
-  barEl.style.width = `${idx}%`;
-  idx++;
-  if (idx < 101) {
-    setTimeout(updateNum, 70);
+  counterEl.innerText = `${barPercentage}%`;
+  barEl.style.width = `${barPercentage}%`;
+  barPercentage++;
+  if (barPercentage < 101) {
+    setTimeout(updateNum, 40);
   }
 }
+
+updateNum();
