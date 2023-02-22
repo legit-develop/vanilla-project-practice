@@ -8,3 +8,10 @@ body {
   color: #fff;
   font-family: cursive;
 }
+
+.container {
+  border: 1px solid red;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
