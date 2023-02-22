@@ -15,3 +15,7 @@ body {
   text-align: center;
   position: relative;
 }
+
+.counter {
+  font-size: 40px;
+}
