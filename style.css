@@ -15,4 +15,14 @@ body {
 .container {
   text-align: center;
   width: 300px;
+  position: relative;
+}
+
+.back-bar {
+  height: 8px;
+  position: absolute;
+  background: lightgray;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
 }
