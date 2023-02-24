@@ -13,11 +13,16 @@ body {
 }
 
 .container {
+  width: 500px;
   border: 1px solid black;
-  width: 300px;
+  min-width: 300px;
   height: 100px;
   background: lightskyblue;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 50px 10px;
+  text-align: center;
 }
 
 .image {
@@ -25,4 +30,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
   top: -50px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: 500;
 }
