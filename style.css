@@ -30,3 +30,8 @@ body {
   transform: translateX(-50%);
   top: -50px;
 }
+
+.username {
+  font-size: 14px;
+  font-weight: 300;
+}
