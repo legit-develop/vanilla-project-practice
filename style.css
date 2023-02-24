@@ -17,4 +17,12 @@ body {
   width: 300px;
   height: 100px;
   background: lightskyblue;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
 }
