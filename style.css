@@ -5,3 +5,22 @@ body {
   height: 100vh;
   align-items: center;
 }
+
+.testimonial-container {
+  border: 1px solid black;
+  width: 500px;
+  height: 100px;
+  background: lightskyblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  min-width: 300px;
+  position: relative;
+  padding: 70px 20px;
+  margin: 5px;
+  color: #fff;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
