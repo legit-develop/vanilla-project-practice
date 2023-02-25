@@ -13,3 +13,13 @@ body {
   text-align: center;
   position: relative;
 }
+
+.counter {
+  font-size: 30px;
+}
+
+.back-bar {
+  height: 8px;
+  background: lightgray;
+  width: 100%;
+}
