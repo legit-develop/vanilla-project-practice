@@ -1,17 +1,4 @@
-const counterEl = document.getElementById("counter");
-const backBarEl = document.getElementById("back-bar");
-const frontBarEl = document.getElementById("front-bar");
-
-let percentCounter = 0;
-
-function updateCounter() {
-  counterEl.innerText = `${percentCounter}%`;
-  frontBarEl.style.width = `${percentCounter}%`;
-  percentCounter++;
-
-  if (percentCounter < 101) {
-    setTimeout(updateCounter, 20);
-  }
-}
-
-updateCounter();
+const monthEl = document.getElementById("month");
+const dateEl = document.getElementById("date");
+const dayEl = document.getElementById("day");
+const yearEl = document.getElementById("year");
