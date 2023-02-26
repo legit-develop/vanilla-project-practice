@@ -25,3 +25,21 @@ body {
   padding: 10px;
   font-weight: bold;
 }
+
+.date {
+  font-size: 20px;
+  color: rgb(129, 128, 128);
+}
+
+.day {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.year {
+  margin: 20px 0;
+  font-size: 20px;
+  color: darkgray;
+  font-weight: 700;
+}
