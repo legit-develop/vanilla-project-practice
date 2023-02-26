@@ -21,4 +21,7 @@ body {
   font-size: 40px;
   background: orangered;
   margin-top: 0px;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
 }
