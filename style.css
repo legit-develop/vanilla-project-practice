@@ -3,14 +3,32 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  height: 100vh;
   align-items: center;
+  height: 100vh;
 }
 
 .container {
+  background: lightgray;
+  width: 300px;
   text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  overflow: hidden;
 }
 
-.heading {
-  font-size: 60px;
+.month {
+  background: orangered;
+  margin: 0;
+  font-size: 40px;
+}
+
+.date {
+  font-size: 50px;
+  margin: 0;
+}
+
+.day,
+.year {
+  font-size: 14px;
+  font-weight: 600;
 }
