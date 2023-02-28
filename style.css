@@ -16,3 +16,16 @@ body {
   color: #fff;
   border-radius: 15px;
 }
+
+.buttons {
+  margin: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: none;
+  background: #ffc6d3;
+  color: rgb(90, 89, 89);
+}
