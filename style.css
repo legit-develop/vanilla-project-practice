@@ -28,3 +28,15 @@ body {
   font-weight: 500;
   margin: 0 30px;
 }
+
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  background: #e3f6ff;
+  border-color: lightgrey;
+  width: 200px;
+  margin: 20px;
+}
