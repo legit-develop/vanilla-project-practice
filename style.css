@@ -1,31 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(to left bottom, #dddddd, #658864, #dddddd);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  height: 100vh;
   align-items: center;
-  background: #edf1d6;
-}
-
-.container {
-  width: 300px;
-  background: #609966;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-  border-radius: 15px;
-}
-
-.buttons {
-  margin: 10px;
-}
-
-.btn {
-  padding: 5px 10px;
-  margin: 0 5px;
-  border-radius: 5px;
-  border: none;
-  background: #ffc6d3;
-  color: rgb(90, 89, 89);
 }
