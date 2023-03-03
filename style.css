@@ -16,3 +16,10 @@ body {
   text-align: center;
   color: #e96479;
 }
+
+.heading {
+  font-size: 40px;
+  font-weight: 300;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
