@@ -29,3 +29,16 @@ body {
   font-weight: 300;
   margin: 20px;
 }
+
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px;
+  background: #e96479;
+  color: #e3f6ff;
+  text-transform: uppercase;
+  width: 250px;
+}
