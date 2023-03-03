@@ -1,49 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to left bottom, #dddddd, #658864, #dddddd);
+  background: linear-gradient(to left bottom, lightblue, lightgray, lightblue);
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container {
-  background: #e3f6ff;
-  padding: 20px;
-  text-align: center;
-  color: #b05a7a;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.heading {
-  font-size: 25px;
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  letter-spacing: 2px;
-}
-
-.joke {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0 30px;
-}
-
-.btn {
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 10px;
-  background: #e3f6ff;
-  border-color: lightgrey;
-  width: 200px;
-  margin: 20px;
-}
-
-.btn:hover {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
-  transition: all 300ms ease;
-  background: #b05a7a;
-  color: #e3f6ff;
 }
