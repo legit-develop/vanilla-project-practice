@@ -13,4 +13,11 @@ body {
   background: #fff;
   width: 30%;
   text-align: center;
+  overflow: hidden;
+}
+
+.month {
+  font-size: 40px;
+  background: #eb455f;
+  margin: 0;
 }
