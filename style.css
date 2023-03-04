@@ -21,3 +21,13 @@ body {
   background: #eb455f;
   margin: 0;
 }
+
+.day {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 50px;
+  margin: 5px;
+}
