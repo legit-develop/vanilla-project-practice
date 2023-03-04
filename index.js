@@ -1,15 +1,11 @@
-const jokeText = document.getElementById("joke");
-console.log(jokeText);
-const btnEl = document.getElementById("btn");
-console.log(btnEl);
+const monthEl = document.getElementById("month");
+const dayEl = document.getElementById("day");
+const dateEl = document.getElementById("date");
+const yearEl = document.getElementById("year");
 
-const apiKey = "V7aqF5COHMcp3MVAmbpBMw==IB3tbbQ8XyWqC9M7";
+const date = new Date();
 
-const options = {
-  method: "GET",
-  headers: {
-    "X-API-Key": apiKey,
-  },
-};
-
-const apiURL = "https://api.api-ninjas.com/v1/dadjookes?limit=1";
+monthEl.innerText = date.toLocaleDateString("en", { month: "long" });
+dayEl.innerText = date.toLocaleDateString("en", { weekday: "long" });
+dateEl.innerText = date.toLocaleDateString("en", { day: "numeric" });
+yearEl.innerText = date.toLocaleDateString("en", { year: "numeric" });
