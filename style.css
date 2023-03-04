@@ -7,3 +7,10 @@ body {
   align-items: center;
   background: gray;
 }
+
+.container {
+  border-radius: 15px;
+  background: #fff;
+  width: 30%;
+  text-align: center;
+}
