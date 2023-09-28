@@ -9,3 +9,16 @@
 .top-container {
   border: 4px solid green;
 }
+
+#logo {
+  height: 100px;
+}
+
+.top-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(12, 12, 80);
+}
